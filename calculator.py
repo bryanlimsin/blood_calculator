@@ -6,7 +6,19 @@ def interface():
     print("Options:")
     print("9 - Quit")
     choice = input("Enter your choice: ")
-    if choice=='9':
+    while choice != '9': # Modified if statement into while-else statement
+        choice = input("Enter your choice: ")
+
+    else:
         return
+
+
    
 interface()
+
+
+
+
+
+
+
