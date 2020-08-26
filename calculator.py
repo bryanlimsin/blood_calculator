@@ -3,14 +3,16 @@
 
 def interface():
     print("My Program")
-    print("Options:")
-    print("9 - Quit")
-    choice = input("Enter your choice: ")
-    while choice != '9': # Modified if statement into while-else statement
+    while True:
+        print("Options:")
+        print("1 - HDL")
+        print("9 - Quit")
         choice = input("Enter your choice: ")
+        if choice == '9':
+            return
 
-    else:
-        return
+        elif choice == "1":
+            HDL_driver()
 
 
    
