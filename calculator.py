@@ -15,7 +15,23 @@ def interface():
             HDL_driver()
 
 
-   
+def HDL_driver():
+
+    # Get the input
+    
+    def input_function():
+        x = input("Enter your HDL value")
+        return x
+
+
+    # Check if HDL is normal
+    
+
+
+    # Have an output
+
+
+
 interface()
 
 
