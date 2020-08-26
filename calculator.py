@@ -104,8 +104,8 @@ def out_analysis_2(x, y):
     print("The analysis is {}".format(y))
 
 
-
-interface() # notice running this function after defining all the modules above is correct 
+if __name__ == "__main__":
+    interface() # notice running this function after defining all the modules above is correct 
 
 
 
