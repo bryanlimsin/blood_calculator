@@ -1,9 +1,1 @@
-import calculator # I am in the same directory as the calculator.py file, so I can do this
-
-
-# use python Syntax for using modules
-# Python interpretor always starts from the top of the file
-
-calculator.HDL_driver()
-
-
+print("The name of his module is {}".format(__name__)) #tells you the name of what python think this module is
