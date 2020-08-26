@@ -15,6 +15,10 @@ def interface():
         elif choice == "1":
             HDL_driver()
             return
+        
+        elif choice == "2":
+            LDL_driver()
+            return
             
 
 def HDL_driver():
