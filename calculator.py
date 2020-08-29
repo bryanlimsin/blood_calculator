@@ -104,7 +104,9 @@ def out_analysis_2(x, y):
     print("The analysis is {}".format(y))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # this statement would allow a file that is ran from command line, importing calculator.py to avoid running the interface program.
+# In this way, the file ran at command line takes on the name main, so calculator can't be main so interface() is ignored.
+# If so, the file ran at command line still gains accessbility to all the defined functions in calculator.py
     interface() # notice running this function after defining all the modules above is correct 
 
 
