@@ -15,6 +15,10 @@ def my_func(x, y):
         if i == food_taken:
             print("There are {} left".format(u))
 
+        else:
+            print("input not valid")
+            break # Need break so that it does not print the above multiple times
+
 
 if __name__ == "__main__":
     my_func(foods, amounts)
